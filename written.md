@@ -1,11 +1,11 @@
 ## What breaks if the cache is mutable instead of write-once?
 
-Three things go wrong.
+The main thing that breaks is you can't trust the cache anymore.
 
-First, race conditions. If two transactions for the same vendor hit tier 3 simultaneously and the LLM returns different categories (it is nondeterministic), whichever write lands last wins. Now you have the same vendor categorized differently depending on timing.
+Say the LLM gets one wrong and labels a vendor as "Travel" when it should be "Meals & Entertainment." With write-once, that bad entry is stuck there but at least it is consistent. Every time that vendor shows up, you get the same wrong answer, and you can find it and fix it. With mutable, a correct entry could get overwritten later by a wrong one, and you would never even know it happened.
 
-Second, feedback poisoning. If the LLM miscategorizes once, that wrong answer enters the cache. With write-once, the damage is contained. One bad entry, but it is stable. With mutable, a correct entry can get overwritten by a later incorrect one. Worse, if cached results feed back into the LLM as few-shot examples, bad entries propagate into future calls creating a degradation loop.
+Then there is the concurrency thing. If two transactions from the same vendor come in at the same time and both hit the LLM, the LLM might give different answers for each. Whichever one saves last is what stays in the cache. So now you have two transactions from the same vendor with different categories in your books. That is a mess.
 
-Third, auditability dies. Bookkeeping needs a paper trail. If the cache mutates, you cannot explain why transaction #47 was categorized as "Travel" when the cache now says that vendor is "Meals & Entertainment." Auditors need deterministic categorization. Write-once gives you a stable mapping you can always point back to.
+And then auditing becomes impossible. If someone asks you "why did this get labeled Travel?" you need a real answer. If the cache keeps changing, the answer is just "because that is what it said at the time" which does not work when you are doing accounting.
 
-Mutable caches turn a deterministic lookup into a source of nondeterminism. In accounting that is not a tradeoff, it is a bug.
+Write-once keeps things predictable. Mutable makes the whole system unreliable.
