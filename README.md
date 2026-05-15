@@ -78,11 +78,11 @@ run the classifier:
 
     python classify.py
 
-generates predictions.csv and metrics.json in the same directory. takes about 10-15 seconds, mostly from loading the sentence-transformers model.
+generates predictions.csv and metrics.json in the same directory.
 
 ## vendor normalization
 
-i strip the following from vendor strings (all after lowercasing):
+i strip the following from vendor strings:
 
 - #CODE patterns: store/transaction IDs like #4521, #SDF234
 - *CODE patterns where CODE contains digits: order IDs like *RT4567, *KM2349. i keep *WORD when it is all letters (like *business, *payment) since those carry actual meaning
@@ -92,7 +92,7 @@ i strip the following from vendor strings (all after lowercasing):
 
 then collapse whitespace.
 
-the goal is not perfect normalization. it is making the same vendor hit the same cache key every time. anything my rules miss gets caught by tier 2.
+the goal is making the same vendor hit the same cache key every time. anything my rules miss gets caught by tier 2.
 
 ## tier 2 threshold
 
@@ -118,4 +118,4 @@ stubbed with keyword matching instead of an actual LLM. in production i would us
 
 ## time spent
 
-around 55 minutes. most went to normalization regex and making sure the holdout edge cases were handled. did not get to proper threshold tuning with cross-validation.
+around whole 1 hr. i wrote readme and written.md after the one hour fininshed. most of the time went to normalization regex and making sure the holdout edge cases were handled. did not get to proper threshold tuning with cross-validation.
