@@ -12,13 +12,11 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
-# ---- config ----
 SIMILARITY_THRESHOLD = 0.75
 TRANSACTIONS_FILE = 'transactions.csv'
 HOLDOUT_FILE = 'holdout.csv'
 CATEGORIES_FILE = 'categories.txt'
 
-# ---- load valid categories ----
 with open(CATEGORIES_FILE) as f:
     VALID_CATEGORIES = [line.strip() for line in f if line.strip()]
 
@@ -30,22 +28,15 @@ def normalize_vendor(raw):
     """
     v = raw.lower().strip()
 
-    # remove #CODE patterns (store/transaction codes like #4521, #SDF234)
     v = re.sub(r'#[a-z0-9]+', '', v)
 
-    # remove *CODE where CODE has digits (order IDs like *RT4567)
     v = re.sub(r'\*[a-z]*\d+[a-z0-9]*', '', v)
 
-    # remove single-letter + digits codes (like T0123ABC workspace IDs)
     v = re.sub(r'\b[a-z]\d{3,}[a-z]*\b', '', v)
 
-    # remove standalone 3+ digit numbers (store/flight/phone numbers)
     v = re.sub(r'\b\d{3,}[a-z]*\b', '', v)
-
-    # strip corporate suffixes
     v = re.sub(r'\b(inc|llc|llp|ltd|corp|corporation)\b\.?', '', v)
 
-    # collapse whitespace
     v = re.sub(r'\s+', ' ', v).strip()
 
     return v
@@ -88,12 +79,10 @@ def tier3_classify(vendor_raw, memo):
         if any(kw in text for kw in keywords):
             return category
 
-    # absolute fallback
     return 'Software & Subscriptions'
 
 
 def main():
-    # ---- build tier 1 cache from training data ----
     cache = {}
 
     with open(TRANSACTIONS_FILE, newline='') as f:
@@ -104,8 +93,6 @@ def main():
                 cache[norm] = row['category']
 
     print(f"[+] cache built: {len(cache)} unique normalized vendors")
-
-    # ---- tier 2 setup ----
     print("[+] loading embedding model (this takes a sec first time)...")
     model = SentenceTransformer('all-MiniLM-L6-v2')
 
@@ -115,7 +102,6 @@ def main():
 
     print(f"[+] embedded {len(cache_vendors)} cached vendors")
 
-    # ---- classify holdout ----
     print("[+] classifying holdout set...")
     results = []
     tier_counts = {1: 0, 2: 0, 3: 0}
@@ -126,12 +112,11 @@ def main():
             norm = normalize_vendor(row['vendor_raw'])
             memo = row.get('memo', '') or ''
 
-            # tier 1: exact cache hit
             if norm in cache:
                 category = cache[norm]
                 tier = 1
             else:
-                # tier 2: embedding similarity
+     
                 query_emb = model.encode([norm], show_progress_bar=False)
                 sims = cosine_similarity(query_emb, cache_embeddings)[0]
                 max_idx = int(np.argmax(sims))
@@ -157,14 +142,12 @@ def main():
                 'tier': tier
             })
 
-    # ---- write predictions.csv ----
     with open('predictions.csv', 'w', newline='') as f:
         fieldnames = ['vendor_raw', 'amount', 'date', 'memo', 'predicted_category', 'tier']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(results)
 
-    # ---- write metrics.json ----
     total = len(results)
     cost = (
         tier_counts[1] * 0.00001 +
@@ -188,7 +171,7 @@ def main():
         },
         'estimated_total_cost_usd': round(cost, 6),
         'cost_per_transaction_usd': round(cost / total, 7),
-        'accuracy': 'no ground truth in holdout - manual spot check looks correct for ~48/50',
+        'accuracy': 'no ground truth provided in holdout set - cannot compute',
         'similarity_threshold_used': SIMILARITY_THRESHOLD
     }
 
