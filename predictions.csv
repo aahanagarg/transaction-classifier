@@ -1,0 +1,51 @@
+vendor_raw,amount,date,memo,predicted_category,tier
+UBER.COM #41245,49.24,2025-10-13,,Travel,1
+OVERDRAFT FEE,35.0,2025-10-15,,Bank Fees,1
+CONFLUENT.IO *KAFKA,2146.18,2026-01-11,kafka cluster,Software & Subscriptions,3
+DELOITTE LLP,2574.92,2026-03-25,,Professional Services,1
+TST*HARBOR ROOM,264.56,2025-10-28,team lunch,Meals & Entertainment,1
+UBER.COM #41245,63.29,2026-02-04,client meeting transport,Travel,1
+OFFICEDEPOT.COM,63.66,2026-01-22,,Office Supplies,1
+GOOGLE ADS #4521,9064.51,2026-01-15,,Marketing & Advertising,1
+AWS*AMAZON WEB SVCS,176.68,2025-12-26,EC2 usage,Software & Subscriptions,1
+MAILCHIMP*MONTHLY,253.45,2025-10-30,,Marketing & Advertising,3
+UNITED AIRLINES,1142.85,2026-03-23,,Travel,3
+COMCAST*BUSINESS,167.23,2026-02-19,business internet,Telecommunications,1
+WIRE FEE - DOMESTIC,34.43,2025-11-09,outbound wire,Bank Fees,1
+EBMUD PAYMENT,91.83,2026-03-27,,Utilities,1
+WEWORK *MEMBERSHIP,3437.67,2026-01-30,coworking,Rent & Facilities,1
+LYFT.COM #SDF234,12.26,2025-12-13,downtown ride,Travel,1
+STAPLES.COM #4521,103.35,2025-12-20,paper and toner,Office Supplies,1
+OFFICE DEPOT #2341,205.17,2026-02-19,ink cartridges,Office Supplies,1
+CON ED OF NY,121.35,2025-11-12,,Utilities,1
+BUS ACCOUNT FEE,17.46,2026-02-28,,Bank Fees,1
+STAPLES.COM #4521,265.32,2026-02-22,paper and toner,Office Supplies,1
+OFFICE DEPOT #2341,111.73,2025-11-03,,Office Supplies,1
+MSFT*M365 BUS,90.33,2026-03-12,subscription renewal,Software & Subscriptions,3
+COMCAST CABLE 800,185.74,2026-02-28,,Telecommunications,1
+DOORDASH.COM #44,121.85,2026-01-29,team lunch,Meals & Entertainment,3
+ACH FEE,20.63,2025-12-07,,Bank Fees,1
+UBER   TRIP 123ABC,20.07,2026-03-26,airport ride,Travel,1
+KILROY REALTY LEASE,17544.58,2025-12-09,Q1 lease,Rent & Facilities,1
+UBER   TRIP 123ABC,61.43,2025-11-27,airport ride,Travel,1
+SLACK T0123ABC,89.13,2026-03-05,pro plan,Software & Subscriptions,1
+DELTA.COM 882,1115.23,2025-10-29,SFO-JFK flight,Travel,1
+GITHUB INC,77.05,2026-02-23,annual github,Software & Subscriptions,1
+TMOBILE *PAYMENT,144.38,2025-10-14,,Telecommunications,1
+COMCAST*BUSINESS,410.04,2025-10-31,,Telecommunications,1
+WEWORK *MEMBERSHIP,3688.96,2026-01-04,coworking,Rent & Facilities,1
+AMAZON.COM*RT4567,31.29,2025-10-18,office chair,Office Supplies,1
+B&H PHOTO VIDEO,899.15,2026-02-02,video gear,Equipment & Hardware,3
+BOSTON PROPERTIES *Q,13182.19,2025-11-10,Q1 lease,Rent & Facilities,1
+DELOITTE.COM PMNT,6506.85,2025-12-04,,Professional Services,1
+HISCOX INSURANCE,872.42,2026-03-03,business liability,Insurance,1
+NOTION *PRO TEAM,30.12,2026-02-19,workspace upgrade,Software & Subscriptions,1
+OFFICEDEPOT.COM,75.41,2026-03-12,ink cartridges,Office Supplies,1
+RIPPLING INC #4521,1041.11,2026-01-04,HR platform,Professional Services,1
+BHPHOTOVIDEO.COM,161.57,2025-12-19,video gear,Equipment & Hardware,3
+B&H PHOTO VIDEO,1592.94,2026-01-17,,Equipment & Hardware,1
+UBER   TRIP 123ABC,60.33,2025-12-12,,Travel,1
+UBER   TRIP 123ABC,69.75,2025-11-26,airport ride,Travel,1
+ZOOM VIDEO COMMUN,181.34,2026-01-24,pro account,Software & Subscriptions,1
+EAST BAY MUD #214,57.5,2025-12-04,,Utilities,1
+RIPPLING INC #4521,1203.34,2026-02-20,,Professional Services,1

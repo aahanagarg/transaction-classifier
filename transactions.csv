@@ -1,0 +1,301 @@
+vendor_raw,amount,date,memo,category
+HARTFORD INSURANCE,1832.95,2026-03-15,workers comp,Insurance
+STARBUCKS #4521,27.36,2025-10-22,,Meals & Entertainment
+DELOITTE.COM PMNT,8776.98,2026-03-18,audit fees,Professional Services
+ADOBE INC,188.35,2025-11-25,creative cloud team,Software & Subscriptions
+MARRIOTT HTL DOWNTOWN,390.62,2026-03-20,client meeting hotel,Travel
+HERTZ RENT-A-CAR #4521,139.38,2026-01-07,3 day rental,Travel
+WIRE FEE - DOMESTIC,21.74,2025-10-30,outbound wire,Bank Fees
+HISCOX *PAYMENT,584.91,2026-02-09,business liability,Insurance
+GOOGLE*ADWORDS BIL,599.14,2026-01-03,search campaign,Marketing & Advertising
+EBMUD PAYMENT,182.77,2026-01-12,water bill,Utilities
+GUSTO PAYROLL,380.48,2025-10-24,monthly platform fee,Professional Services
+ZOOM.US 888-799,28.12,2026-03-11,pro account,Software & Subscriptions
+DOMESTIC WIRE FEE,18.93,2025-12-13,outbound wire,Bank Fees
+AMZ MKTPLACE,72.29,2025-10-15,label maker,Office Supplies
+REGUS *OFFICE SPACE,1087.23,2026-02-20,,Rent & Facilities
+ZOOM.US 888-799,56.54,2025-12-26,pro account,Software & Subscriptions
+EAST BAY MUD #214,133.81,2025-10-14,water bill,Utilities
+REGUS *OFFICE SPACE,692.55,2026-02-01,office rent,Rent & Facilities
+WIRE TRANSFER FEE,31.53,2026-02-19,outbound wire,Bank Fees
+WEWORK.COM #SF12,3364.56,2026-01-14,office membership,Rent & Facilities
+RIPPLING PEOPLE,845.37,2026-03-12,,Professional Services
+LYFT.COM #SDF234,22.73,2025-12-03,,Travel
+MAILCHIMP.COM #44,205.68,2026-02-27,,Marketing & Advertising
+AMAZON.COM*KM2349,209.93,2025-11-09,office chair,Office Supplies
+STARBUCKS #4521,10.3,2026-01-28,client coffee,Meals & Entertainment
+MICROSOFT*OFFICE 365,242.66,2026-01-11,subscription renewal,Software & Subscriptions
+LINKEDIN.COM*ADS,2059.27,2025-10-08,B2B campaign,Marketing & Advertising
+COMCAST*BUSINESS,138.03,2026-02-22,,Telecommunications
+RIPPLING PEOPLE,648.05,2026-03-08,,Professional Services
+GOOGLE *ADS123ABC,817.06,2025-12-25,search campaign,Marketing & Advertising
+CONEDISON*PAYMENT,362.48,2025-10-07,electric,Utilities
+CONEDISON*PAYMENT,287.94,2026-01-28,,Utilities
+HERTZ.COM #ER2,399.21,2026-02-27,3 day rental,Travel
+MAILCHIMP.COM #44,157.4,2026-03-04,newsletter tool,Marketing & Advertising
+BESTBUY.COM #4521,1445.09,2026-03-23,,Equipment & Hardware
+HARTFORD INSURANCE,1409.84,2026-01-10,,Insurance
+MARRIOTT.COM RES#,721.99,2026-03-20,client meeting hotel,Travel
+INSUFFICIENT FUNDS FEE,35.0,2025-11-16,overdraft,Bank Fees
+AMZN MKTP US #4SDFG21,175.88,2026-03-08,printer paper,Office Supplies
+AMAZON WEB SERVICES,549.12,2026-02-15,monthly cloud bill,Software & Subscriptions
+LINKEDIN ADS *4521,2575.97,2025-10-05,B2B campaign,Marketing & Advertising
+DELL.COM PMNT,519.74,2026-03-23,,Equipment & Hardware
+HISCOX *PAYMENT,1083.09,2025-12-18,business liability,Insurance
+LYFT.COM #SDF234,43.09,2026-02-07,,Travel
+LINKEDIN.COM*ADS,3596.83,2026-01-18,B2B campaign,Marketing & Advertising
+DELL*ORDER 145ABC,2001.32,2025-10-22,,Equipment & Hardware
+PG&E PAYMENT,437.74,2026-03-26,,Utilities
+ACH FEE,22.42,2025-11-09,bounced ach,Bank Fees
+DELL.COM PMNT,985.91,2026-03-18,dev workstation,Equipment & Hardware
+AMAZON.COM*KM2349,161.49,2025-12-20,printer paper,Office Supplies
+AMAZON WEB SERVICES,1203.98,2025-12-11,monthly cloud bill,Software & Subscriptions
+FIGMA.COM #2341,69.15,2025-12-15,professional plan,Software & Subscriptions
+AMAZON WEB SERVICES,2491.0,2025-10-20,monthly cloud bill,Software & Subscriptions
+CONEDISON*PAYMENT,125.44,2025-10-11,,Utilities
+UNITED.COM CONF#XR,1981.45,2025-10-30,conference travel,Travel
+ACCT MAINT FEE,33.32,2025-11-18,business account,Bank Fees
+ADOBE.COM #5521,109.51,2025-10-27,monthly subscription,Software & Subscriptions
+DELOITTE LLP,20832.05,2025-10-28,tax advisory,Professional Services
+THE HARTFORD INS,2298.69,2026-03-10,,Insurance
+UNITED.COM CONF#XR,1749.87,2025-11-28,client visit,Travel
+CONEDISON*PAYMENT,516.03,2026-02-06,,Utilities
+OVERDRAFT FEE,35.0,2026-03-27,,Bank Fees
+VZW*PAYMENT,142.32,2025-10-31,,Telecommunications
+OFFICE DEPOT INC,136.89,2025-12-10,bulk paper order,Office Supplies
+NOTION *PRO TEAM,71.42,2026-03-24,,Software & Subscriptions
+MARRIOTT.COM RES#,886.22,2025-11-01,,Travel
+UBER   TRIP 123ABC,10.37,2025-12-02,client meeting transport,Travel
+DOORDASH *ORDER 8821,50.15,2026-01-03,team lunch,Meals & Entertainment
+SLACK T0123ABC,47.68,2026-01-30,,Software & Subscriptions
+SLACK T0123ABC,230.7,2025-10-18,,Software & Subscriptions
+VZW*PAYMENT,255.33,2026-01-17,,Telecommunications
+STARBUCKS.COM,16.16,2026-03-23,team morning,Meals & Entertainment
+LYFT INC,33.48,2025-11-10,,Travel
+CON ED OF NY,524.75,2026-02-25,electric,Utilities
+WILSON SONSINI GOOD,10792.8,2025-10-19,contract review,Professional Services
+APPLE.COM/BILL,2778.31,2025-10-24,team laptops,Equipment & Hardware
+TST* OLIVE BISTRO,180.09,2025-12-27,client dinner,Meals & Entertainment
+APPLE STORE #042,472.21,2026-01-22,team laptops,Equipment & Hardware
+DELTA AIR 0061234567,258.44,2026-01-02,SFO-JFK flight,Travel
+SQ *CORNER DELI,52.96,2026-01-26,,Meals & Entertainment
+MARRIOTT.COM RES#,611.92,2025-12-15,,Travel
+TST* DOWNTOWN GRILL,187.24,2026-03-19,team lunch,Meals & Entertainment
+NOTION LABS INC,77.7,2026-01-17,,Software & Subscriptions
+GUSTO PAYROLL,409.08,2026-01-28,payroll service,Professional Services
+GOOGLE *ADS123ABC,12167.32,2026-01-03,,Marketing & Advertising
+RIPPLING PEOPLE,1005.56,2025-10-04,,Professional Services
+LINKEDIN.COM*ADS,3063.99,2026-01-22,B2B campaign,Marketing & Advertising
+STARBUCKS.COM,15.84,2026-01-06,team morning,Meals & Entertainment
+STARBUCKS STORE 04521,13.56,2025-12-23,client coffee,Meals & Entertainment
+FIGMA *PROF MNTH,37.68,2025-11-11,,Software & Subscriptions
+MICROSOFT*OFFICE 365,186.03,2025-11-13,office 365 business,Software & Subscriptions
+GOOGLE*ADWORDS BIL,5625.29,2025-11-30,monthly ad spend,Marketing & Advertising
+STATE FARM *PAY,932.07,2026-01-15,,Insurance
+AMAZON MKTPLACE PMTS,193.16,2026-02-22,label maker,Office Supplies
+HARTFORD INSURANCE,2117.63,2026-03-10,,Insurance
+GITHUB INC,83.79,2025-11-05,,Software & Subscriptions
+FACEBOOK *ADS,6656.31,2026-03-02,instagram ads,Marketing & Advertising
+ADOBE.COM #5521,317.99,2025-10-07,annual plan,Software & Subscriptions
+STARBUCKS STORE 04521,14.0,2026-02-02,client coffee,Meals & Entertainment
+AT&T*BILL PAYMENT,210.87,2026-02-26,mobile plan,Telecommunications
+FIGMA INC,15.27,2026-01-01,professional plan,Software & Subscriptions
+DELOITTE TAX LLP,22069.33,2026-02-05,audit fees,Professional Services
+GUSTO PAYROLL,386.5,2025-11-14,payroll service,Professional Services
+META *ADS BILLING,1931.6,2025-11-29,facebook campaign,Marketing & Advertising
+HISCOX *PAYMENT,927.86,2025-12-12,,Insurance
+BEST BUY #00321,876.48,2026-02-24,,Equipment & Hardware
+BUS ACCOUNT FEE,13.62,2025-11-18,business account,Bank Fees
+VERIZON WIRELESS,150.27,2026-02-01,wireless plan,Telecommunications
+TMOBILE *PAYMENT,106.81,2025-10-04,business plan,Telecommunications
+UNITED 016234567890,1436.72,2026-01-11,conference travel,Travel
+GUSTO PAYROLL,402.87,2025-10-09,,Professional Services
+BOSTON PROPERTIES *Q,22446.44,2025-12-29,monthly office rent,Rent & Facilities
+AT&T MOBILITY 800,161.37,2025-11-24,mobile plan,Telecommunications
+AWS*AMAZON WEB SVCS,2638.53,2025-11-30,S3 storage,Software & Subscriptions
+VERIZON*PAYMENT WEB,180.41,2025-11-29,business mobile,Telecommunications
+HERTZ.COM #ER2,381.5,2026-01-16,3 day rental,Travel
+OFFICE DEPOT #2341,267.17,2026-02-19,bulk paper order,Office Supplies
+GOOGLE *ADS123ABC,10371.06,2026-03-07,monthly ad spend,Marketing & Advertising
+STAPLES 00214521,386.57,2025-10-18,paper and toner,Office Supplies
+AWS BILLING ##,695.3,2026-01-30,monthly cloud bill,Software & Subscriptions
+T-MOBILE BUSINESS,213.62,2026-02-03,business plan,Telecommunications
+TST* OLIVE BISTRO,257.59,2026-02-22,client dinner,Meals & Entertainment
+TST* OLIVE BISTRO,199.51,2025-12-19,business meeting,Meals & Entertainment
+ACH FEE,9.67,2026-01-14,bounced ach,Bank Fees
+FIGMA *PROF MNTH,88.23,2025-12-07,,Software & Subscriptions
+EAST BAY MUD #214,175.08,2025-11-16,,Utilities
+PG&E*WEB#2231,341.13,2026-01-25,electric bill,Utilities
+GUSTO*PAYMENT,359.98,2025-11-05,,Professional Services
+AT&T*BILL PAYMENT,185.06,2026-01-13,mobile plan,Telecommunications
+SLACK T0123ABC,81.79,2026-02-23,workspace billing,Software & Subscriptions
+ADOBE *CREATIVE CLD,82.84,2025-10-25,creative cloud team,Software & Subscriptions
+RIPPLING INC #4521,628.08,2026-03-21,,Professional Services
+ACH RETURN FEE,22.48,2026-01-21,bounced ach,Bank Fees
+DELTA AIR LINES,1527.62,2025-12-08,SFO-JFK flight,Travel
+UNITED.COM CONF#XR,1000.4,2026-02-08,client visit,Travel
+GOOGLE *ADS123ABC,12012.12,2026-01-25,search campaign,Marketing & Advertising
+META PLATFORMS INC,7231.85,2025-11-07,instagram ads,Marketing & Advertising
+GOOGLE ADS #4521,2787.69,2026-03-13,,Marketing & Advertising
+WSGR LLP RETAINER,12903.05,2026-01-28,contract review,Professional Services
+APPLE INC #4521,2227.78,2026-01-27,team laptops,Equipment & Hardware
+REGUS *OFFICE SPACE,1920.46,2026-02-24,office rent,Rent & Facilities
+GOOGLE ADS #4521,4575.82,2026-01-10,monthly ad spend,Marketing & Advertising
+DELTA AIR 0061234567,773.18,2026-02-21,business travel,Travel
+BOSTON PROPERTIES *Q,5577.79,2026-03-12,monthly office rent,Rent & Facilities
+WEWORK INC,710.92,2026-02-21,,Rent & Facilities
+MARRIOTT INTL,505.3,2026-02-18,3 nights NYC,Travel
+META *ADS BILLING,2217.9,2025-11-14,instagram ads,Marketing & Advertising
+APPLE STORE #042,349.47,2026-01-03,iPad for design,Equipment & Hardware
+TST*HARBOR ROOM,150.91,2025-11-20,client dinner,Meals & Entertainment
+APPLE STORE #042,2228.85,2025-12-19,iPad for design,Equipment & Hardware
+HISCOX *PAYMENT,1092.13,2025-11-28,,Insurance
+DOMESTIC WIRE FEE,38.98,2026-03-31,wire to vendor,Bank Fees
+BEST BUY #00321,651.99,2026-01-30,,Equipment & Hardware
+COMCAST*BUSINESS,291.41,2025-12-07,business internet,Telecommunications
+T-MOBILE BUSINESS,198.76,2026-01-29,,Telecommunications
+PG&E*WEB#2231,631.79,2025-11-20,monthly utility,Utilities
+GUSTO INC,389.15,2025-11-27,,Professional Services
+RIPPLING INC #4521,847.15,2025-10-30,HR platform,Professional Services
+GITHUB INC,56.44,2026-01-10,,Software & Subscriptions
+MARRIOTT INTL,975.29,2025-11-14,,Travel
+WILSON SONSINI LEGAL,9293.18,2025-12-05,contract review,Professional Services
+STAPLES.COM #4521,177.76,2026-03-21,,Office Supplies
+HERTZ.COM #ER2,230.68,2025-11-22,,Travel
+BEST BUY #00321,1765.97,2026-01-24,monitors,Equipment & Hardware
+VERIZON*PAYMENT WEB,405.49,2025-11-19,wireless plan,Telecommunications
+LYFT INC,35.71,2025-12-01,,Travel
+WSGR LLP RETAINER,18533.29,2025-12-16,M&A advisory,Professional Services
+THE HARTFORD INS,533.83,2025-12-05,workers comp,Insurance
+UNITED.COM CONF#XR,1835.35,2025-12-11,conference travel,Travel
+MARRIOTT.COM RES#,899.08,2026-02-08,client meeting hotel,Travel
+KILROY REALTY LEASE,18973.01,2025-11-25,Q1 lease,Rent & Facilities
+MARRIOTT INTL,877.1,2026-01-28,client meeting hotel,Travel
+UNITED 016234567890,895.34,2025-10-10,conference travel,Travel
+FIGMA *PROF MNTH,97.29,2025-10-28,,Software & Subscriptions
+STAPLES.COM #4521,201.63,2025-10-19,paper and toner,Office Supplies
+HARTFORD INSURANCE,1889.25,2026-02-26,,Insurance
+AT&T MOBILITY 800,224.45,2026-03-02,internet,Telecommunications
+MICROSOFT CORPORATION,294.73,2025-11-29,m365 license,Software & Subscriptions
+BUS ACCOUNT FEE,16.68,2025-10-01,,Bank Fees
+DELOITTE TAX LLP,15512.6,2025-12-30,tax advisory,Professional Services
+ZOOM VIDEO COMMUN,54.6,2025-11-03,,Software & Subscriptions
+SQ *CORNER DELI,41.74,2025-12-26,client meeting,Meals & Entertainment
+HISCOX *PAYMENT,1017.06,2026-01-22,E&O policy,Insurance
+ACCT MAINT FEE,23.8,2026-02-17,,Bank Fees
+STATE FARM *PAY,1156.43,2025-12-20,,Insurance
+EAST BAY MUD #214,92.33,2026-03-21,water bill,Utilities
+UNITED 016234567890,1281.73,2025-12-07,client visit,Travel
+RIPPLING PEOPLE,1179.81,2025-12-17,,Professional Services
+DELL.COM PMNT,481.25,2026-03-19,dev workstation,Equipment & Hardware
+OFFICE DEPOT INC,155.04,2025-10-14,bulk paper order,Office Supplies
+MICROSOFT CORPORATION,249.7,2026-03-08,subscription renewal,Software & Subscriptions
+BESTBUY.COM #4521,741.86,2025-12-12,office equipment,Equipment & Hardware
+REGUS MANAGEMENT,1592.83,2025-12-30,office rent,Rent & Facilities
+BEST BUY #00321,1470.94,2026-03-15,office equipment,Equipment & Hardware
+STATE FARM *PAY,1075.15,2025-12-02,,Insurance
+RIPPLING PEOPLE,228.86,2026-02-15,HR platform,Professional Services
+UBER.COM #41245,75.37,2025-10-19,client meeting transport,Travel
+TMOBILE *PAYMENT,75.61,2025-10-14,,Telecommunications
+MSFT * OFFICE 365,143.59,2025-12-09,office 365 business,Software & Subscriptions
+GUSTO INC,402.03,2026-01-02,,Professional Services
+WEWORK INC,3585.65,2025-11-25,office membership,Rent & Facilities
+SQ *MORNING CAFE,39.12,2026-02-15,breakfast,Meals & Entertainment
+BESTBUY.COM #4521,1006.64,2026-03-06,monitors,Equipment & Hardware
+INTUIT *MAILCHIMP,121.03,2026-03-02,,Marketing & Advertising
+UBER *TRIP HELP.UB,78.23,2026-02-25,airport ride,Travel
+VZW*PAYMENT,188.48,2026-03-29,wireless plan,Telecommunications
+PG&E*WEB#2231,303.27,2025-12-07,,Utilities
+ZOOM US *PRO,117.42,2026-02-28,pro account,Software & Subscriptions
+SQ *MORNING CAFE,20.44,2026-01-27,,Meals & Entertainment
+CONEDISON*PAYMENT,350.04,2025-11-14,,Utilities
+DELTA.COM 882,1150.89,2025-11-07,business travel,Travel
+REGUS MANAGEMENT,2087.21,2026-03-09,office rent,Rent & Facilities
+DELTA AIR LINES,1426.49,2025-11-30,SFO-JFK flight,Travel
+ACH FEE,24.77,2026-03-16,bounced ach,Bank Fees
+FIGMA.COM #2341,166.31,2026-03-03,professional plan,Software & Subscriptions
+DELTA AIR LINES,1681.42,2026-02-17,SFO-JFK flight,Travel
+COMCAST CABLE 800,273.09,2025-10-16,business internet,Telecommunications
+HISCOX INSURANCE,567.08,2025-11-24,business liability,Insurance
+DOORDASH *ORDER 8821,37.28,2025-11-02,client dinner delivery,Meals & Entertainment
+LINKEDIN.COM*ADS,456.98,2026-01-16,B2B campaign,Marketing & Advertising
+BOSTON PROPERTIES *Q,4773.27,2025-12-09,,Rent & Facilities
+SQ *BLUE BOTTLE COFFEE,30.06,2026-02-11,,Meals & Entertainment
+AT&T MOBILITY 800,310.2,2026-02-10,business line,Telecommunications
+TMOBILE *PAYMENT,91.58,2025-10-17,,Telecommunications
+AMZN MKTP US*1A2B3C4,173.03,2026-02-06,label maker,Office Supplies
+DELTA.COM 882,536.15,2025-12-03,client trip,Travel
+INSUFFICIENT FUNDS FEE,35.0,2025-11-07,overdraft,Bank Fees
+INSUFFICIENT FUNDS FEE,35.0,2026-03-10,,Bank Fees
+DELTA AIR 0061234567,1644.27,2025-10-07,SFO-JFK flight,Travel
+ADOBE SYSTEMS *MNTHLY,155.62,2026-02-28,creative cloud team,Software & Subscriptions
+META *ADS BILLING,7298.2,2025-11-03,instagram ads,Marketing & Advertising
+AMAZON MKTPLACE PMTS,45.41,2026-02-23,office chair,Office Supplies
+UNITED 016234567890,538.37,2026-01-26,conference travel,Travel
+RETURNED ACH FEE,23.21,2025-10-04,bounced ach,Bank Fees
+SQ *MORNING CAFE,30.07,2026-03-01,breakfast,Meals & Entertainment
+MSFT * OFFICE 365,213.62,2025-10-12,office 365 business,Software & Subscriptions
+LINKEDIN ADS *4521,2131.17,2026-01-01,B2B campaign,Marketing & Advertising
+WEWORK.COM #SF12,4313.2,2026-01-14,office membership,Rent & Facilities
+HISCOX *PAYMENT,703.12,2025-10-31,business liability,Insurance
+ADOBE *CREATIVE CLD,462.43,2025-11-10,,Software & Subscriptions
+STARBUCKS.COM,9.3,2026-01-27,client coffee,Meals & Entertainment
+OVERDRAFT FEE,35.0,2025-11-30,,Bank Fees
+PG&E PAYMENT,542.22,2026-03-15,electric bill,Utilities
+HERTZ.COM #ER2,197.57,2026-02-16,3 day rental,Travel
+WEWORK *MEMBERSHIP,4068.21,2025-10-24,office membership,Rent & Facilities
+WILSON SONSINI GOOD,5426.56,2026-02-27,legal retainer,Professional Services
+OVERDRAFT FEE,35.0,2026-01-20,overdraft,Bank Fees
+MICROSOFT CORPORATION,253.58,2025-10-15,office 365 business,Software & Subscriptions
+APPLE STORE #042,3385.12,2026-03-01,MacBook Pro,Equipment & Hardware
+WILSON SONSINI LEGAL,11896.58,2026-01-06,M&A advisory,Professional Services
+HERTZ.COM #ER2,251.77,2025-12-30,,Travel
+GITHUB INC,25.19,2025-12-03,annual github,Software & Subscriptions
+BESTBUY.COM #4521,1809.16,2025-10-22,,Equipment & Hardware
+ATT*WIRELESS,390.75,2026-03-26,mobile plan,Telecommunications
+ZOOM.US 888-799,110.06,2025-12-11,,Software & Subscriptions
+EAST BAY MUD #214,139.09,2026-01-11,water bill,Utilities
+WEWORK.COM #SF12,1809.48,2025-12-05,office membership,Rent & Facilities
+VZW*PAYMENT,274.92,2026-02-12,,Telecommunications
+ADOBE *CREATIVE CLD,44.24,2025-12-10,annual plan,Software & Subscriptions
+DOMESTIC WIRE FEE,29.54,2025-10-08,,Bank Fees
+DOORDASH *ORDER 8821,32.57,2025-11-25,client dinner delivery,Meals & Entertainment
+STAPLES.COM #4521,134.71,2026-01-21,,Office Supplies
+LYFT *RIDE WED 11AM,34.09,2026-01-27,,Travel
+ADOBE INC,374.05,2025-10-12,,Software & Subscriptions
+DELOITTE.COM PMNT,7802.12,2025-12-17,tax advisory,Professional Services
+RIPPLING PEOPLE,629.36,2026-03-22,,Professional Services
+FIGMA INC,153.4,2026-02-07,,Software & Subscriptions
+ACH FEE,19.89,2026-03-30,,Bank Fees
+BOSTON PROPERTIES *Q,18487.6,2026-02-23,,Rent & Facilities
+HISCOX *PAYMENT,355.32,2025-10-11,E&O policy,Insurance
+NOTION LABS INC,83.78,2025-11-09,,Software & Subscriptions
+AMAZON.COM*RT4567,28.09,2026-02-08,printer paper,Office Supplies
+TST*KAVA RESTAURANT,72.21,2025-12-17,business meeting,Meals & Entertainment
+HARTFORD INSURANCE,780.87,2025-11-13,workers comp,Insurance
+DOORDASH*FRESH KITCHEN,136.06,2025-11-21,team lunch,Meals & Entertainment
+AWS*AMAZON WEB SVCS,148.17,2026-02-16,EC2 usage,Software & Subscriptions
+EAST BAY MUD #214,103.68,2025-11-18,,Utilities
+KILROY REALTY LEASE,21690.18,2025-11-09,monthly office rent,Rent & Facilities
+OFFICE DEPOT INC,47.45,2025-11-04,ink cartridges,Office Supplies
+MARRIOTT.COM RES#,490.55,2026-01-19,,Travel
+HERTZ RENT-A-CAR #4521,109.53,2026-01-13,,Travel
+ADOBE *CREATIVE CLD,584.56,2026-01-05,monthly subscription,Software & Subscriptions
+SLACK T0123ABC,290.44,2026-03-26,workspace billing,Software & Subscriptions
+ADOBE SYSTEMS *MNTHLY,48.1,2025-10-24,annual plan,Software & Subscriptions
+THE HARTFORD INS,1423.66,2025-11-19,,Insurance
+HISCOX *PAYMENT,1435.22,2025-11-14,business liability,Insurance
+STAPLES 00214521,232.87,2026-02-07,office supplies,Office Supplies
+RETURNED ACH FEE,18.85,2026-03-16,bounced ach,Bank Fees
+DOORDASH *ORDER 8821,26.9,2026-03-16,team lunch,Meals & Entertainment
+BEST BUY #00321,157.54,2026-03-31,office equipment,Equipment & Hardware
+KILROY REALTY LEASE,21423.28,2026-02-22,,Rent & Facilities
+OFFICEDEPOT.COM,189.46,2026-03-17,,Office Supplies
+ATT*WIRELESS,372.31,2026-01-23,business line,Telecommunications
+AMAZON WEB SERVICES,272.54,2026-03-18,monthly cloud bill,Software & Subscriptions
+SQ *MORNING CAFE,50.96,2025-10-23,breakfast,Meals & Entertainment
+MSFT * OFFICE 365,116.98,2025-11-23,subscription renewal,Software & Subscriptions
+UBER.COM #41245,58.29,2025-12-25,airport ride,Travel
+LINKEDIN.COM*ADS,2240.16,2026-03-07,B2B campaign,Marketing & Advertising
+SLACK TECHNOLOGIES,103.28,2026-03-21,,Software & Subscriptions
+PGANDE WEB ONLINE,347.69,2025-11-29,monthly utility,Utilities

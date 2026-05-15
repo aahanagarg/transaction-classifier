@@ -1,0 +1,19 @@
+{
+  "total_transactions": 50,
+  "tier_1": {
+    "count": 43,
+    "percentage": 86.0
+  },
+  "tier_2": {
+    "count": 0,
+    "percentage": 0.0
+  },
+  "tier_3": {
+    "count": 7,
+    "percentage": 14.0
+  },
+  "estimated_total_cost_usd": 0.03543,
+  "cost_per_transaction_usd": 0.0007086,
+  "accuracy": "no ground truth in holdout - manual spot check looks correct for ~48/50",
+  "similarity_threshold_used": 0.75
+}
