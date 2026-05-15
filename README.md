@@ -110,7 +110,7 @@ stubbed with keyword matching instead of an actual LLM. in production i would us
 
 ## failure modes i observed
 
-1. vendor variants that normalize differently. "MSFT*M365 BUS" normalizes to "msft bus" but "MSFT * OFFICE 365" normalizes to "msft * office". same company, different keys. tier 2 has to rescue this and it is not guaranteed to clear the threshold.
+1. tier 2 caught nothing. my normalization was aggressive enough that vendors either exact-matched or were too different to clear 0.75. in hindsight i could lower the threshold to maybe 0.65 to let tier 2 pick up more, but then you risk false positives. the gap between "exact match" and "totally novel vendor" turned out to be smaller than i expected in this dataset.
 
 2. ambiguous vendors. "AMAZON.COM" could be Office Supplies or Equipment & Hardware depending on what was ordered. my cache takes the first category seen in training data. write-once means we are locked to that even if later transactions are different.
 
