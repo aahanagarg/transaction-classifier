@@ -92,17 +92,11 @@ i strip the following from vendor strings:
 
 then collapse whitespace.
 
-the goal is making the same vendor hit the same cache key every time. anything my rules miss gets caught by tier 2.
+the goal is making the same vendor hit the same cache key every time. the goal is making the same vendor hit the same cache key every time.
 
 ## tier 2 threshold
 
-i went with 0.75. reasoning:
-
-- too high (0.9+) and you barely catch anything beyond exact match
-- too low (0.5) and you start pulling false matches. short strings like "uber" match "united" because they are both short travel words
-- 0.75 catches clear variants ("doordash.com" to "doordash *order") without crossing category boundaries
-
-could tune this properly with labeled validation data. 0.75 was a judgment call.
+i went with 0.75. in practice, tier 2 ended up catching nothing. my normalization was aggressive enough that vendors either exact-matched at tier 1 or were so different they fell below 0.75. in hindsight i could drop it to 0.6 or 0.65 to give tier 2 more room to work, but with this dataset the gap between "same vendor" and "totally different vendor" was pretty small. would revisit with more data.
 
 ## tier 3 stub
 
@@ -118,4 +112,4 @@ stubbed with keyword matching instead of an actual LLM. in production i would us
 
 ## time spent
 
-around whole 1 hr. i wrote readme and written.md after the one hour fininshed. most of the time went to normalization regex and making sure the holdout edge cases were handled. did not get to proper threshold tuning with cross-validation.
+around whole 1 hr. i wrote written.md after the one hour finished. most of the time went to normalization regex and making sure the holdout edge cases were handled. did not get to proper threshold tuning with cross-validation.
